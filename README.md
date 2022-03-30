@@ -19,4 +19,10 @@ In order to run this demo, we need to install a modified snap version:
 *   Build the extension locally: `yarn setup && yarn dist --build-type flask`
 *   Load the unpacked extension (see "custom build" instructions) from [here](https://github.com/MetaMask/metamask-extension/tree/eth-denver-2022#other-docs)
 
-</details>
+### Local Installation Instructions (WIP)
+
+First, navigate to `aleo/wasm` and run the following command to package the wasm library: 
+
+`wasm-pack build --scope aleohq`
+
+If you do not have `wasm-pack` installed, you can install it with npm. 
